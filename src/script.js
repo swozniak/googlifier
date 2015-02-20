@@ -24,9 +24,7 @@ for (var i = 0; i < images.length; ++i) {
 /** Googlify subsequently added images */
 var childListObserver = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-    	
-		// Googlify images that have been added
-		for (var j = 0; j < mutation.addedNodes.length; ++j) {
+    	for (var j = 0; j < mutation.addedNodes.length; ++j) {
 			var node = mutation.addedNodes[j];
 			if (node.nodeType === 1) {
 				var images = node.getElementsByTagName('IMG');
