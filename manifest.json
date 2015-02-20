@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Googlifier",
-	"version": "1.0.0",
-	"description": "Add googly eyes to photos on the websites you browse! Tweet your best results using #googlifier! Created by @stephanwozniak.",
+	"version": "1.1.0",
+	"description": "Add googly eyes to photos on the websites you browse! Tweet your best results using #googlifier! Created by @stephanwozniak but could not have been done without the work of mtschirs. Follow on Github for full history: https://github.com/swozniak/googlifier/",
 	"icons": {
 		"128": "icons/icon128.png",
 		"16": "icons/icon16.png",
