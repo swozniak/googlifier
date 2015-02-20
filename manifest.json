@@ -15,7 +15,7 @@
 		"scripts": [
 			"libs/objectdetect.js",
 			"libs/objectdetect.eye.js",
-			"libs/jquery.min.js",
+			"libs/objectdetect.frontalface_alt.js",
 			"src/background.js"
 		]
 	},
@@ -23,14 +23,6 @@
 		"name": "Click to Googlify",
 		"default_icon": "icons/icon48.png"
 	},
-	"content_scripts": [{
-		"js": [
-			"libs/jquery.min.js"
-		],
-		"matches": [
-			"<all_urls>"
-		]
-	}],
 	"permissions": [
 		"<all_urls>"
 	]
